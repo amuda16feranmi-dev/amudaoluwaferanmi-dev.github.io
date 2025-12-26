@@ -277,6 +277,30 @@ footer {
     margin-bottom: 10px;
 }
 
+.accessory-card {
+  background: #111;
+  border: 1px solid #ff2f92;
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.accessory-images {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.accessory-images img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
 /* MOBILE */
 @media (max-width: 600px) {
     .gallery-row img {

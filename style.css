@@ -33,7 +33,7 @@ img {
 
 .logo img {
     width: 80px;
-    height: auto;
+    height: 80px;
 }
 
 .nav-links a {
@@ -277,13 +277,17 @@ footer {
     margin-bottom: 10px;
 }
 
+.accessory {
+  padding: 30px 20px;
+}
+
 .accessory-card {
   background: #111;
   border: 1px solid #ff2f92;
   border-radius: 15px;
   padding: 20px;
   max-width: 300px;
-  margin: auto;
+  margin:0 auto 30px;
   text-align: center;
 }
 
@@ -295,8 +299,8 @@ footer {
 }
 
 .accessory-images img {
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   object-fit: cover;
   border-radius: 10px;
 }
